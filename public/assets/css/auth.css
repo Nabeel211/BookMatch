@@ -1,0 +1,112 @@
+/* public/assets/css/auth.css */
+.auth-body {
+  background: linear-gradient(135deg, #1c0d00, #3d1f00 50%, #6b3500);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth-wrap {
+  width: 100%;
+  max-width: 420px;
+  padding: 24px 16px;
+}
+.auth-logo {
+  font-family: 'Lora', serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 28px;
+}
+.auth-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 28px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+.auth-title {
+  font-family: 'Lora', serif;
+  font-size: 1.4rem;
+  margin-bottom: 4px;
+  color: #1c1712;
+}
+.auth-sub {
+  font-size: 0.83rem;
+  color: #9a8f82;
+  margin-bottom: 24px;
+}
+.auth-sub a {
+  color: #c8781a;
+  text-decoration: underline;
+}
+.auth-error {
+  background: #fdecea;
+  border: 1px solid #f9c5c2;
+  color: #c0392b;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.83rem;
+  margin-bottom: 16px;
+}
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.form-group label {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #5a5045;
+}
+.form-group input {
+  padding: 10px 12px;
+  border: 1px solid rgba(0,0,0,0.13);
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  outline: none;
+  color: #1c1712;
+  transition: border-color 0.15s;
+}
+.form-group input:focus {
+  border-color: #c8781a;
+  box-shadow: 0 0 0 3px rgba(200,120,26,0.12);
+}
+.form-check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: #5a5045;
+}
+.form-check input[type="checkbox"] {
+  accent-color: #c8781a;
+  width: 15px;
+  height: 15px;
+}
+.auth-btn {
+  background: #c8781a;
+  color: #fff;
+  border: none;
+  padding: 11px;
+  border-radius: 8px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  cursor: pointer;
+  transition: background 0.15s;
+  margin-top: 4px;
+}
+.auth-btn:hover { background: #a66010; }
+.auth-footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.45);
+}
