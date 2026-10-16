@@ -7,7 +7,7 @@ bookmatch-ai/
 ├── web.php                    → routes/web.php
 ├── api.php                    → routes/api.php
 ├── PageController.php         → app/Http/Controllers/PageController.php
-├── ClaudeAiController.php     → app/Http/Controllers/Api/ClaudeAiController.php
+├── AiController.php           → app/Http/Controllers/Api/AiController.php
 ├── services.php               → config/services.php
 ├── app.blade.php              → resources/views/layouts/app.blade.php
 ├── home.blade.php             → resources/views/pages/home.blade.php

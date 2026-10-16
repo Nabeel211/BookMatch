@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Http;
 
-class ClaudeAiController extends Controller
+class AiController extends Controller
 {
     public function chat(Request $request): JsonResponse
     {

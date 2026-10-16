@@ -1,5 +1,5 @@
 // public/assets/js/pages/chat-ai/chat-ai.js
-// Chat AI BookMatch — menggunakan Claude API via Laravel backend
+// Chat AI BookMatch — menggunakan  API via Laravel backend
 
 let chatHistory = [];    // riwayat percakapan [{role, content}]
 let isLoading   = false; // mencegah double-send
